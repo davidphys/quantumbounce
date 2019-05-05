@@ -10,4 +10,6 @@ run: all
 
 clean: 
 	-rm -r out
+	-rm out.mp4
 	-rm quantum
+

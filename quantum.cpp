@@ -108,7 +108,7 @@ void saveImage(int n){
       img.put(i,j,floatToRGB(r,g,b));
     }
   }
-  img.save(getFilename("img",n,3,".bmp"));
+  img.save(getFilename("out/img",n,3,".bmp"));
 }
 
 void zeroWavefunction(){
